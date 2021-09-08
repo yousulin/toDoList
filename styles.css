@@ -1,0 +1,36 @@
+h1,form{
+   margin: auto auto auto auto;
+   width: 400px;
+   border-left: 1px solid #CED4DA;
+   border-right: 1px solid #CED4DA;
+   padding: 20px 50px 20px 50px;
+}
+form{
+    border-bottom: 1px solid #CED4DA;
+}
+form buttom{
+    transform: translate(50px, 100px);
+}
+article{
+  margin: auto auto auto auto;
+  width: 400px;
+}
+.list-group-item{
+  padding-left: 2.5rem;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item.active{
+  text-decoration: line-through;
+}
+.list-group-item.active::before{
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 15px;
+  left: 20px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
